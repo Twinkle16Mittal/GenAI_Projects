@@ -1,0 +1,7 @@
+pip install ollama
+ollama pull llama2
+start the ollama -> ollama serve
+model use - > llama3.2:1b-instruct-q8_0 
+
+reddit which models we can use 
+https://www.reddit.com/r/ollama/comments/1lktb12/i_tested_10_llms_locally_on_my_macbook_air_m1_8gb/
