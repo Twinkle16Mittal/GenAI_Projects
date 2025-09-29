@@ -40,7 +40,7 @@ if pdf_files:
     
     Answer:
     """
-    prompt = PromptTemplate(template=template, input_variabled=["context", "question"])
+    prompt = PromptTemplate(template=template, input_variables=["context", "question"])
     st.subheader("Ask Questions about the document")
     if "chat_history" not in st.session_state:
         st.session_state.chat_history = []
