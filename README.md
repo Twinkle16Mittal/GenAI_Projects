@@ -39,6 +39,12 @@ This repository contains multiple experiments and applications exploring LLMs, R
   - **Multi Doc QA** → Supports querying across multiple documents.  
   - **Multi-Model Multi-Doc QA** → Allows switching between multiple models for multi-document QA. 
 
+### 8. **company policy qa app**
+- Streamlit-based Question Answering system
+- Use PyPDFLoader to load the document
+- Using FAISS to store the embeddings in memory.
+- Using CromaDB to permanent store the embeddings.
+
 ---
 
 ## Getting Started
