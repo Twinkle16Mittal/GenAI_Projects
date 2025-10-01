@@ -64,9 +64,9 @@ This repository contains multiple experiments and applications exploring LLMs, R
 ## Getting Started
 
 ### Installation
-Clone the repository and install dependencies:
-commands:
-  git clone https://github.com/Twinkle16Mittal/GenAI_Projects.git
-  cd GenAI_Projects
-  pip install -r requirements.txt
-  to run the streamlit app -> streamlit run <file_name.py>
+- Clone the repository and install dependencies:
+- commands:
+  - git clone https://github.com/Twinkle16Mittal/GenAI_Projects.git
+  - cd GenAI_Projects
+  - pip install -r requirements.txt
+  - to run the streamlit app -> streamlit run <file_name.py>
