@@ -45,6 +45,20 @@ This repository contains multiple experiments and applications exploring LLMs, R
 - Using FAISS to store the embeddings in memory.
 - Using CromaDB to permanent store the embeddings.
 
+### 9. **News Article Summarizer**
+- Build “News Article Summarizer” using LlamaIndex
+
+### 10. **Semantic search on 100+ Wikipedia docs**
+- Push embeddings to Pinecone from LangChain.
+- Compare FAISS vs Pinecone.
+
+### 11. **Conversation Question Answer from PDF**
+- Load and chunks a PDF
+- Embeds chunks into FAISS vector database
+- Uses Ollama model for both embeddings + LLM
+- Retrieves relevant chunks for each user query
+- Keeps chat history for follow up questions
+- Runs in a simple command-line chatbot loop.
 ---
 
 ## Getting Started
