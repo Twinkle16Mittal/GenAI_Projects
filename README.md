@@ -59,7 +59,13 @@ This repository contains multiple experiments and applications exploring LLMs, R
 - Retrieves relevant chunks for each user query
 - Keeps chat history for follow up questions
 - Runs in a simple command-line chatbot loop.
+
+### 12. **Generate the image**
+- Generate the image with the help of diffusion model
+- Using Hugging Face Diffuser Libraray
+- Using python libraray torch to run the neutal network
 ---
+
 
 ## Getting Started
 
