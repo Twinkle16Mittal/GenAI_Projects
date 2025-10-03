@@ -26,11 +26,11 @@ pipe.enable_attention_slicing()
 
 # Your Prompts
 prompts = [
-    "A cyberpunk cat with neon lights",
-    "A fantasy castle on floating islands",
-    "A realistic photo of a robot chef cooking",
-    "A magical forest with glowing mushrooms",
-    "A spaceship landing on Mars"
+    "A futuristic skyline with towering skyscrapers and flying cars, cyberpunk city, neon lighting, cinematic wide-angle, ultra-detailed",
+    # "A fantasy castle on floating islands",
+    # "A realistic photo of a robot chef cooking",
+    # "A magical forest with glowing mushrooms",
+    # "A spaceship landing on Mars"
 ]
 
 # Generate and save images
@@ -55,7 +55,7 @@ for i, prompt in enumerate(prompts,1):
     print(f"Generating image {i} for prompt: {prompt}")
     image = pipe(prompt).images[0] # runs. the diffusion denoising process
     # image = pipe(prompt, num_inference_steps=25).images[0] 
-    filename = f"generated_{i}.png"
+    filename = f"generated_authentic_{i}.png"
     image.save(filename)
     print(f"saved {filename}")
 

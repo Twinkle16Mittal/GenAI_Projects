@@ -64,7 +64,13 @@ This repository contains multiple experiments and applications exploring LLMs, R
 - Generate the image with the help of diffusion model
 - Using Hugging Face Diffuser Libraray
 - Using python libraray torch to run the neutal network
----
+- generating a imgae with consistent style
+
+### 13. **Implement Img2Img style**
+- Take one photo and generate 3 stylistic variations.
+
+### 14. **inpaint script**
+- Edit the image with the help mask image
 
 
 ## Getting Started
